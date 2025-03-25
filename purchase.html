@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Purchase - Empty Technology</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index-styles.css">
+    <link rel="stylesheet" href="cart-panel.css">
+    <link rel="stylesheet" href="purchase.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon.ico">
+    <link rel="shortcut icon" href="favicon.ico">
+
+</head>
+<body>
+    <div class="header">
+        <a href="index.html">
+            <img src="images/logo24.png" alt="Logo" class="logo">
+        </a>        
+        <span class="header-title">Empty Technology ™</span>
+
+        <nav class="header-links">
+            <a href="design.html" class="header-link">Design</a>
+            <a href="features.html" class="header-link">Features</a>
+            <a href="support.html" class="header-link">Support</a>
+            <a href="purchase.html" class="purchase-button">Purchase</a>
+        </nav>
+        
+        <button class="cart-button" id="cartButton">
+            <img src="images/bag.png" alt="Cart" class="cart-icon">
+            <span id="cart-count" class="cart-count">0</span>
+        </button>       
+    </div>
+
+    <!-- Cart Panel -->
+    <div class="cart-panel" id="cartPanel">
+        <div class="cart-panel-content">
+            <div class="cart-empty-message">Your cart is EMPTY</div>
+            <button class="close-cart-button" id="closeCartButton">Close</button>
+        </div>
+    </div>
+    <div class="cart-overlay" id="cartOverlay"></div>
+
+    <!-- Purchase Content -->
+    <div class="purchase-container">
+        <div class="coming-soon-section">
+            <h1 class="coming-soon-title">Coming Soon: Join Our Group Buy</h1>
+            <p class="coming-soon-subtitle">We're preparing to launch our flagship product through an exclusive group buy. Be among the first to experience breakthrough technology.</p>
+            <div class="product-preview">
+                <img src="images/product1.png" alt="Product Preview" class="product-image">
+            </div>
+            <div class="countdown-container">
+                <div class="countdown-item">
+                    <span class="countdown-value">14</span>
+                    <span class="countdown-label">Days</span>
+                </div>
+                <div class="countdown-item">
+                    <span class="countdown-value">08</span>
+                    <span class="countdown-label">Hours</span>
+                </div>
+                <div class="countdown-item">
+                    <span class="countdown-value">45</span>
+                    <span class="countdown-label">Minutes</span>
+                </div>
+                <div class="countdown-item">
+                    <span class="countdown-value">32</span>
+                    <span class="countdown-label">Seconds</span>
+                </div>
+            </div>
+        </div>
+        
+
+        
+        <div class="group-buy-info">
+            <h2>About This Group Buy</h2>
+            <p>A group buy allows us to produce this premium product at a more accessible price point by gauging interest and producing a specific quantity. By joining our group buy, you'll secure an exclusive price that won't be available after the official launch.</p>
+            <p>Once the group buy reaches its target, production will begin. We estimate shipping to commence approximately 3-4 months after the group buy closes.</p>
+            <p>Subscribe to our newsletter below to receive immediate notification when the group buy opens, along with early access for loyal subscribers.</p>
+        </div>
+        
+        <div class="features-list">
+            <div class="feature-item">
+                <div class="feature-icon">⭐</div>
+                <h3 class="feature-title">Premium Quality</h3>
+                <p class="feature-description">Crafted with precision using the highest quality materials available for unmatched performance and durability.</p>
+            </div>
+            <div class="feature-item">
+                <div class="feature-icon">💰</div>
+                <h3 class="feature-title">Exclusive Pricing</h3>
+                <p class="feature-description">Group buy participants receive special pricing that won't be available during the general release.</p>
+            </div>
+            <div class="feature-item">
+                <div class="feature-icon">🔒</div>
+                <h3 class="feature-title">Early Access</h3>
+                <p class="feature-description">Be among the first to experience our groundbreaking technology before the official public launch.</p>
+            </div>
+        </div>
+        
+        <div class="signup-section">
+            <h2 class="signup-title">Stay Informed</h2>
+            <p class="signup-description">Subscribe to our newsletter to receive updates about the group buy, exclusive early access, and be the first to know when orders open.</p>
+            
+            <div class="newsletter-signup1">
+                <input type="email" placeholder="Your email address" class="newsletter-input1">
+                <button class="newsletter-button1">Subscribe</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer-four">
+        <div class="footer-content">
+            <p class="footer-text">Join our newsletter for <span class="gradient-text">updates</span> and <span class="gradient-text">information</span> on new products.</p>
+            <div class="newsletter">
+                <input type="email" placeholder="your email..." class="newsletter-input">
+                <button class="newsletter-button">
+                    <img src="images/arrowicon.png" alt="Submit">
+                </button>
+            </div>
+
+            <div class="social-media-links">
+                <a href="https://www.instagram.com" class="social-link" target="_blank">
+                    Instagram <span class="arrow">&#8594;</span>
+                </a>
+                <a href="https://www.tiktok.com" class="social-link" target="_blank">
+                    TikTok <span class="arrow">&#8594;</span>
+                </a>
+                <a href="https://twitter.com/emptytechno" class="social-link" target="_blank">
+                    Twitter <span class="arrow">&#8594;</span>
+                </a>
+                <a href="https://www.facebook.com" class="social-link" target="_blank">
+                    Facebook <span class="arrow">&#8594;</span>
+                </a>
+            </div>
+
+            <div class="submedia-links">
+                <a href="support.html" class="sub-link">
+                    <span class="arrow-three">&#8592;</span> Support 
+                </a>
+                <a href="privacypolicy.html" class="sub-link">
+                    <span class="arrow-three">&#8592;</span> Privacy Policy 
+                </a>
+                <a href="refundpolicy.html" class="sub-link">
+                    <span class="arrow-three">&#8592;</span> Refund Policy 
+                </a>
+                <a href="termsofservice.html" class="sub-link">
+                    <span class="arrow-three">&#8592;</span>Terms of Service 
+                </a>
+            </div>
+
+            <div class="footer-logo">
+                <img src="images/logospelled2.png" alt="Logo" class="footer-logo-image">
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="cart-panel.js"></script>
+    <script src="support.js"></script>
+    <script>
+// Simple countdown timer - replace with actual launch date
+function updateCountdown() {
+    // Set the actual target date to April 24, 2025
+    const targetDate = new Date('2025-04-24T00:00:00');
+    
+    const now = new Date();
+    const timeRemaining = targetDate - now;
+    
+    const days = Math.floor(timeRemaining / (1000 * 60 * 60 * 24));
+    const hours = Math.floor((timeRemaining % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    const minutes = Math.floor((timeRemaining % (1000 * 60 * 60)) / (1000 * 60));
+    const seconds = Math.floor((timeRemaining % (1000 * 60)) / 1000);
+    
+    document.querySelector('.countdown-item:nth-child(1) .countdown-value').textContent = days.toString().padStart(2, '0');
+    document.querySelector('.countdown-item:nth-child(2) .countdown-value').textContent = hours.toString().padStart(2, '0');
+    document.querySelector('.countdown-item:nth-child(3) .countdown-value').textContent = minutes.toString().padStart(2, '0');
+    document.querySelector('.countdown-item:nth-child(4) .countdown-value').textContent = seconds.toString().padStart(2, '0');
+}
+
+// Update countdown every second
+setInterval(updateCountdown, 1000);
+updateCountdown();
+
+    </script>
+</body>
+</html>

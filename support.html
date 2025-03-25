@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Support - Empty Technology</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index-styles.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon.ico">
+    <link rel="shortcut icon" href="favicon.ico">
+</head>
+<body>
+
+    <div class="header">
+        <a href="index.html">
+            <img src="images/logo24.png" alt="Logo" class="logo">
+        </a>        
+        <span class="header-title">Empty Technology ™</span>
+
+        <nav class="header-links">
+            <a href="design.html" class="header-link">Design</a>
+            <a href="features.html" class="header-link">Features</a>
+            <a href="support.html" class="header-link active">Support</a>
+            <a href="purchase.html" class="purchase-button">Purchase</a>
+        </nav>
+        
+        <button class="cart-button" id="cartButton">
+            <img src="images/bag.png" alt="Cart" class="cart-icon">
+            <span id="cart-count" class="cart-count">0</span>
+        </button>       
+    </div>
+
+    <!-- Cart Panel -->
+    <div class="cart-panel" id="cartPanel">
+        <div class="cart-panel-content">
+            <div class="cart-empty-message">Your cart is EMPTY</div>
+            <button class="close-cart-button" id="closeCartButton">Close</button>
+        </div>
+    </div>
+    <div class="cart-overlay" id="cartOverlay"></div>
+
+    <!-- Support Info Banner -->
+    <div class="support-info-banner">
+        <p>If you have any questions regarding Empty Technology and/or its products read through our FAQs or get in touch at <a href="mailto:support@emptytechnolgy.com">support@emptytechnolgy.com</a>. We typically respond within 24 hours.</p>
+    </div>
+
+    <!-- Main Support Content -->
+    <div class="support-container">
+        <h1 class="support-title">Support!</h1>
+        
+        <div class="support-sections">
+            <!-- FAQ Section -->
+            <div class="support-section">
+                <h2>Frequently Asked Questions</h2>
+                
+                <div class="faq-container">
+                    <div class="faq-item">
+                        <div class="faq-question" data-faq="1">
+                            <span>What is an Empty USB?</span>
+                            <span class="faq-icon">+</span>
+                        </div>
+                        <div class="faq-answer" id="faq-1">
+                            <p>The Empty USB is our flagship product designed with minimalist principles to provide a clean slate for your digital storage needs. It represents infinite potential in a sleek, modern design.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <div class="faq-question" data-faq="2">
+                            <span>How do I use my Empty USB?</span>
+                            <span class="faq-icon">+</span>
+                        </div>
+                        <div class="faq-answer" id="faq-2">
+                            <p>Simply connect your Empty USB to any compatible device through a standard USB port. The device will recognize it immediately, allowing you to store and transfer your files with ease.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <div class="faq-question" data-faq="3">
+                            <span>What is your warranty policy?</span>
+                            <span class="faq-icon">+</span>
+                        </div>
+                        <div class="faq-answer" id="faq-3">
+                            <p>All Empty Technology products come with a 1-year limited warranty covering manufacturing defects. For full details, please review our warranty information included with your purchase.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <div class="faq-question" data-faq="4">
+                            <span>How do I return a product?</span>
+                            <span class="faq-icon">+</span>
+                        </div>
+                        <div class="faq-answer" id="faq-4">
+                            <p>We offer a 30-day return policy for all unused products in their original packaging. To initiate a return, please contact our support team with your order number and reason for return.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <div class="faq-question" data-faq="5">
+                            <span>Is the Empty USB compatible with all operating systems?</span>
+                            <span class="faq-icon">+</span>
+                        </div>
+                        <div class="faq-answer" id="faq-5">
+                            <p>Yes, the Empty USB is designed to work seamlessly with all major operating systems including Windows, macOS, Linux, and Chrome OS.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Contact Form Section -->
+            <div class="support-section">
+                <h2>Contact Us</h2>
+                <div class="contact-form-container">
+                    <form id="contactForm" class="contact-form">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="order">Order Number (optional)</label>
+                            <input type="text" id="order" name="order">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" name="subject" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        
+                        <button type="submit" class="submit-button">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer-two">
+        <div class="footer-content">
+            <p class="footer-text">Join our newsletter for <span class="gradient-text">updates</span> and <span class="gradient-text">information</span> on new products.</p>
+            <div class="newsletter">
+                <input type="email" placeholder="your email..." class="newsletter-input">
+                <button class="newsletter-button">
+                    <img src="images/arrowicon.png" alt="Submit">
+                </button>
+            </div>
+
+            <div class="social-media-links">
+                <a href="https://www.instagram.com" class="social-link" target="_blank">
+                    Instagram <span class="arrow">&#8594;</span>
+                </a>
+                <a href="https://www.tiktok.com" class="social-link" target="_blank">
+                    TikTok <span class="arrow">&#8594;</span>
+                </a>
+                <a href="https://www.twitter.com" class="social-link" target="_blank">
+                    Twitter <span class="arrow">&#8594;</span>
+                </a>
+                <a href="https://www.facebook.com" class="social-link" target="_blank">
+                    Facebook <span class="arrow">&#8594;</span>
+                </a>
+            </div>
+
+            <div class="submedia-links">
+                <a href="support.html" class="sub-link">
+                    <span class="arrow-three">&#8592;</span> Support 
+                </a>
+                <a href="privacypolicy.html" class="sub-link">
+                    <span class="arrow-three">&#8592;</span> Privacy Policy 
+                </a>
+                <a href="refundpolicy.html" class="sub-link">
+                    <span class="arrow-three">&#8592;</span> Refund Policy 
+                </a>
+                <a href="termsofservice.html" class="sub-link">
+                    <span class="arrow-three">&#8592;</span>Terms of Service 
+                </a>
+
+            </div>
+
+            <div class="footer-logo">
+                <img src="images/logospelled2.png" alt="Logo" class="footer-logo-image">
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+    <script src="cart.js"></script>
+    <script src="support.js"></script>
+
+
+</body>
+</html>
