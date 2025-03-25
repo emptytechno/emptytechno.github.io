@@ -1992,7 +1992,10 @@ body {
         display: inline-block;
     }
     
-      
+    .header-link {
+display: none;
+  }
+  
 
       .title-image,
 .subtext-image {
