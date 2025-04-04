@@ -71,11 +71,23 @@
                                 "@type": "QuantitativeValue",
                                 "minValue": 0,
                                 "maxValue": 0
+                            },
+                            "handlingTime": {
+                                "@type": "QuantitativeValue",
+                                "minValue": 1,
+                                "maxValue": 3,
+                                "unitCode": "DAY"
+                            },
+                            "transitTime": {
+                                "@type": "QuantitativeValue",
+                                "minValue": 3,
+                                "maxValue": 7,
+                                "unitCode": "DAY"
                             }
                         },
                         "shippingDestination": {
                             "@type": "DefinedRegion",
-                            "addressCountry": []
+                            "addressCountry": ["US", "CA", "GB", "AU", "DE", "FR", "JP"]
                         }
                     },
                     "hasMerchantReturnPolicy": {
@@ -92,23 +104,25 @@
                 "productionStatus": "https://schema.org/ProductionInProgress",
                 "aggregateRating": {
                     "@type": "AggregateRating",
-                    "ratingValue": 0,
-                    "reviewCount": 0,
+                    "ratingValue": 5,
+                    "reviewCount": 1,
                     "bestRating": 5,
-                    "worstRating": 0
+                    "worstRating": 1
                 },
                 "review": [
                     {
                         "@type": "Review",
                         "reviewRating": {
                             "@type": "Rating",
-                            "ratingValue": 0
+                            "ratingValue": 5,
+                            "bestRating": 5,
+                            "worstRating": 1
                         },
                         "author": {
                             "@type": "Organization",
                             "name": "Empty Technology"
                         },
-                        "reviewBody": "Product not yet released. Anticipated launch coming soon."
+                        "reviewBody": "Product launching soon. Join our groupbuy at the end of the month."
                     }
                 ]
             }
