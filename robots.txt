@@ -1,3 +1,3 @@
 User-agent: *
 Allow: /
-Sitemap: https://www.empty.technology/sitemap.xml
+Sitemap: https://empty.technology/sitemap.xml
